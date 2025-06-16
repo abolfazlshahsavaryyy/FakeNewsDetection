@@ -22,7 +22,7 @@ def clean_data(df):
     df["length_text"]=df["text"].apply(len)
     df["length_title"]=df["title"].apply(len)
 
-    df = pd.get_dummies(df, columns=['subject'], drop_first=True)
+    
 
     return df
 
