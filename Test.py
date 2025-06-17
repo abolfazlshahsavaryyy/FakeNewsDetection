@@ -1,13 +1,8 @@
-import random
+import numpy as np
+def avg_sentences_length(text):
+    sentences=text.split('.')
+    sentences_length=[len(i) for i in sentences]
+    return np.mean(sentences_length)
 
-# For 3 random numbers
-random_numbers = random.sample(range(0, 15), 11)
-print(sorted(random_numbers))
-
-# For 4 random numbers
-random_numbers = random.sample(range(1, 100), 4)
-print(random_numbers)
-
-# For 5 random numbers
-random_numbers = random.sample(range(1, 100), 5)
-print(random_numbers)
+x=avg_sentences_length("this is.this is an.this is an ea")
+print(x)
