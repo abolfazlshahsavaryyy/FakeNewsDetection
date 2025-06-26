@@ -239,7 +239,7 @@ def manual_grid_search_linear(x_train, y_train, x_valid, y_valid, param_grid):
 
 #read and clean dataset
 
-df=read_data("Fake.csv","True.csv")
+df=read_data("FakeNewsDetection/Fake.csv","FakeNewsDetection/True.csv")
 clean_df=clean_data(df)
 scatter_title_text_lenght(clean_df)
 
