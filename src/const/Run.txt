@@ -1,1 +1,4 @@
-python -m src.main
+run python main:python -m src.main
+run api:uvicorn main:app --reload
+source .venv/bin/activate
+
