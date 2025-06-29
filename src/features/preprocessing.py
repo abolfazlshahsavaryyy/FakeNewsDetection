@@ -1,5 +1,5 @@
 import pandas as pd
-from src.features.feature_extrac_function import extract_features
+from FakeNewsDetection.src.features.feature_extrac_function import extract_features
 
 def clean_data(df):
     df["length_text"] = df["text"].apply(len)
