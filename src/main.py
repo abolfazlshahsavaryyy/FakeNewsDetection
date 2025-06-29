@@ -1,15 +1,15 @@
-from src.read_data.loader import read_data
-from src.features.preprocessing import clean_data
-from src.visualization.eda import scatter_featurs
-from src.features.split_data import split_data
-from src.models.hyperparameter_tuning.hyperparameter_tuning_svc import manual_grid_search_linear
-from src.config.config import settings
-from src.models.train_model.LogisticRegression_model import LogisticRegression_model 
-from src.models.train_model.SVC_model import SVC_model
-from src.models.predict.predict_logistic_regression import predict_logistic_regression
-from src.models.predict.predict_svc import predict_svc
-from src.model_save.save_models import save_model
-from src.read_data.loader import read_clean_data
+from FakeNewsDetection.src.read_data.loader import read_data
+from FakeNewsDetection.src.features.preprocessing import clean_data
+from FakeNewsDetection.src.visualization.eda import scatter_featurs
+from FakeNewsDetection.src.features.split_data import split_data
+from FakeNewsDetection.src.models.hyperparameter_tuning.hyperparameter_tuning_svc import manual_grid_search_linear
+from FakeNewsDetection.src.config.config import settings
+from FakeNewsDetection.src.models.train_model.LogisticRegression_model import LogisticRegression_model 
+from FakeNewsDetection.src.models.train_model.SVC_model import SVC_model
+from FakeNewsDetection.src.models.predict.predict_logistic_regression import predict_logistic_regression
+from FakeNewsDetection.src.models.predict.predict_svc import predict_svc
+from FakeNewsDetection.src.model_save.save_models import save_model
+from FakeNewsDetection.src.read_data.loader import read_clean_data
 
 def main():
 
